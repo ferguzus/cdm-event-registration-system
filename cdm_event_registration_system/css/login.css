@@ -1,0 +1,38 @@
+body {
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(194, 194, 197, 0.2) 0px 0px 20px 0px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.gender-group {
+    margin-left: 10px; /* Adjust this value to move the gender group to the left */
+}
+
+.gender-label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 5px; /* Adjust this value to move the gender label to the left */
+}
+
+.gender-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-check {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}

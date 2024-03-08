@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+	display: flex;
+	background: #4070f4;
+	height: 100vh;
+	padding: 10px;
+	overflow: hidden;
+	margin: 0;
+	font-family: 'Poppins', sans-serif; /* Apply Poppins font to the entire page */
+}
+
+.center {
+	max-width: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 55%;
+	background: #FFF;
+	border-radius: 10px;
+	padding: 20px 30px 3px;
+	opacity: 0.9;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+
+.center h1 {
+	position: relative;
+	color: #333;
+	text-align: center;
+	padding: 0 0 2px 0;
+	margin: 5px;
+	font-size: 40px;
+}
+
+.center h1::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	background: #4070f4;
+	align-items: center;
+}
+
+h2 {
+	color: #4070f4; /* Change the color code to your desired color */
+	/* Add any additional styling for the h2 tag here */
+}
+
+.registration-message {
+	margin-top: 20px;
+	color: #333;
+	font-size: 18px;
+}
+
+/* Add this style section for button styling */
+
+.button-container {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+/* General button styles */
+button {
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+cursor: pointer;
+font-size: 16px;
+margin: 0 10px; /* Add margin to separate the buttons */
+}
+
+.bottom-text {
+    font-size: 25px; /* Adjust the font size to your preference */
+	font-weight: bold;
+}
+
+
+/* Remove the [type="submit"][name="cancel"] specificity */
+button[name="cancel"] {
+    background-color: red;
+    width: 100px;
+}
+
+button[name="cancel"]:hover {
+    background-color: #D71313; /* Darker Red on hover */
+}
+
+.btn-disabled {
+    background-color: #B31312;
+    color: #ffffff;
+    cursor: not-allowed;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjust the padding to your liking (vertical padding increased) */
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 13px;
+}
+
+
+/* Specific styles for the "Register Another" button */
+.return-to-home-button {
+background-color: #4CAF50; /* Green */
+font-family: 'Poppins', sans-serif; /* Apply Poppins font to the button */
+}
+
+button[type="submit"][name="returnhome"]:hover {
+background-color: #45a049; /* Darker Green on hover */
+}
+
+/* Specific styles for the "Return to Home" button */
+button[type="submit"][name="registeranother"] {
+background-color: #4070f4; /* Blue */
+font-family: 'Poppins', sans-serif; /* Apply Poppins font to the button */
+}
+
+button[type="submit"][name="registeranother"]:hover {
+background-color: #305099; /* Darker Blue on hover */
+}
